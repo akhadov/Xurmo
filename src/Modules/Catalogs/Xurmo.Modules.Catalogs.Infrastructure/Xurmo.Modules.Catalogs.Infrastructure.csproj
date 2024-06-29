@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Xurmo.Common.Infrastructure\Xurmo.Common.Infrastructure.csproj" />
+    <ProjectReference Include="..\Xurmo.Modules.Catalogs.Application\Xurmo.Modules.Catalogs.Application.csproj" />
+    <ProjectReference Include="..\Xurmo.Modules.Catalogs.Presentation\Xurmo.Modules.Catalogs.Presentation.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Database\Migrations\" />
+  </ItemGroup>
+</Project>

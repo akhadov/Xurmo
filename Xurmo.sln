@@ -1,0 +1,148 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B6ADBC40-1649-453A-B78B-FDD152529249}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6CB07336-3BF5-4786-BF1B-990027E7D310}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{088A507A-C366-49AC-82F3-D59C10231EB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{9958917B-7FD2-4E0F-8E8D-39151FC7D878}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalogs", "Catalogs", "{7DB29768-E7B1-49B4-A7CF-90DAFB714CD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{FD03C09B-5CF0-44B1-9DAE-39027A01BE61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xurmo.Common.Application", "src\Common\Xurmo.Common.Application\Xurmo.Common.Application.csproj", "{9A03BA8A-23BE-4BA0-BAAC-FC09F68346DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xurmo.Common.Domain", "src\Common\Xurmo.Common.Domain\Xurmo.Common.Domain.csproj", "{75FD33C7-BFBE-4C55-8445-A48E8256BCC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xurmo.Common.Infrastructure", "src\Common\Xurmo.Common.Infrastructure\Xurmo.Common.Infrastructure.csproj", "{7C4467BC-A83D-42E3-91A8-F3C37C4000A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xurmo.Common.Presentation", "src\Common\Xurmo.Common.Presentation\Xurmo.Common.Presentation.csproj", "{0C0A9468-04F5-4F7A-9BF8-335CE34275F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{7CFBB7BA-0D92-4F12-BA71-0806603929FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xurmo.Modules.Users.Domain", "src\Modules\Users\Xurmo.Modules.Users.Domain\Xurmo.Modules.Users.Domain.csproj", "{3BBD92C0-4AB0-474F-BB13-818A5CAE70BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xurmo.Modules.Users.Application", "src\Modules\Users\Xurmo.Modules.Users.Application\Xurmo.Modules.Users.Application.csproj", "{8E42560E-5EE0-48E2-BAA0-2979985FC195}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xurmo.Modules.Users.Infrastructure", "src\Modules\Users\Xurmo.Modules.Users.Infrastructure\Xurmo.Modules.Users.Infrastructure.csproj", "{2D182023-E2AC-4A92-AD75-1A85CD8EC29C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xurmo.Modules.Users.Presentation", "src\Modules\Users\Xurmo.Modules.Users.Presentation\Xurmo.Modules.Users.Presentation.csproj", "{6F81DE00-C227-4AC9-952B-C9610621ABAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xurmo.Modules.Users.IntegrationEvents", "src\Modules\Users\Xurmo.Modules.Users.IntegrationEvents\Xurmo.Modules.Users.IntegrationEvents.csproj", "{4080D26D-E2E1-4DE9-8F94-E777B0CC4425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xurmo.Api", "src\Api\Xurmo.Api\Xurmo.Api.csproj", "{9DC6FE3A-EBA7-46DE-88D7-A5DF443658E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xurmo.Modules.Catalogs.Domain", "src\Modules\Catalogs\Xurmo.Modules.Catalogs.Domain\Xurmo.Modules.Catalogs.Domain.csproj", "{543A955A-6D59-4984-8828-BD89B90D78D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xurmo.Modules.Catalogs.Application", "src\Modules\Catalogs\Xurmo.Modules.Catalogs.Application\Xurmo.Modules.Catalogs.Application.csproj", "{1D6EE9C2-4253-4634-84B5-DE5F009EFB90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xurmo.Modules.Catalogs.Infrastructure", "src\Modules\Catalogs\Xurmo.Modules.Catalogs.Infrastructure\Xurmo.Modules.Catalogs.Infrastructure.csproj", "{6A3AD551-C153-4DCD-A94A-F1200FB24499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xurmo.Modules.Catalogs.Presentation", "src\Modules\Catalogs\Xurmo.Modules.Catalogs.Presentation\Xurmo.Modules.Catalogs.Presentation.csproj", "{1AD6BF45-BFC3-4E2A-ADC9-373BC8A80481}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E0BA77BC-D8D7-47BC-80C4-1A93DF3B241F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A03BA8A-23BE-4BA0-BAAC-FC09F68346DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A03BA8A-23BE-4BA0-BAAC-FC09F68346DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A03BA8A-23BE-4BA0-BAAC-FC09F68346DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A03BA8A-23BE-4BA0-BAAC-FC09F68346DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75FD33C7-BFBE-4C55-8445-A48E8256BCC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FD33C7-BFBE-4C55-8445-A48E8256BCC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FD33C7-BFBE-4C55-8445-A48E8256BCC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FD33C7-BFBE-4C55-8445-A48E8256BCC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C4467BC-A83D-42E3-91A8-F3C37C4000A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4467BC-A83D-42E3-91A8-F3C37C4000A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4467BC-A83D-42E3-91A8-F3C37C4000A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4467BC-A83D-42E3-91A8-F3C37C4000A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0A9468-04F5-4F7A-9BF8-335CE34275F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0A9468-04F5-4F7A-9BF8-335CE34275F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0A9468-04F5-4F7A-9BF8-335CE34275F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0A9468-04F5-4F7A-9BF8-335CE34275F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BBD92C0-4AB0-474F-BB13-818A5CAE70BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBD92C0-4AB0-474F-BB13-818A5CAE70BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BBD92C0-4AB0-474F-BB13-818A5CAE70BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BBD92C0-4AB0-474F-BB13-818A5CAE70BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E42560E-5EE0-48E2-BAA0-2979985FC195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E42560E-5EE0-48E2-BAA0-2979985FC195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E42560E-5EE0-48E2-BAA0-2979985FC195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E42560E-5EE0-48E2-BAA0-2979985FC195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D182023-E2AC-4A92-AD75-1A85CD8EC29C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D182023-E2AC-4A92-AD75-1A85CD8EC29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D182023-E2AC-4A92-AD75-1A85CD8EC29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D182023-E2AC-4A92-AD75-1A85CD8EC29C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F81DE00-C227-4AC9-952B-C9610621ABAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F81DE00-C227-4AC9-952B-C9610621ABAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F81DE00-C227-4AC9-952B-C9610621ABAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F81DE00-C227-4AC9-952B-C9610621ABAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4080D26D-E2E1-4DE9-8F94-E777B0CC4425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4080D26D-E2E1-4DE9-8F94-E777B0CC4425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4080D26D-E2E1-4DE9-8F94-E777B0CC4425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4080D26D-E2E1-4DE9-8F94-E777B0CC4425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DC6FE3A-EBA7-46DE-88D7-A5DF443658E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC6FE3A-EBA7-46DE-88D7-A5DF443658E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC6FE3A-EBA7-46DE-88D7-A5DF443658E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC6FE3A-EBA7-46DE-88D7-A5DF443658E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{543A955A-6D59-4984-8828-BD89B90D78D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543A955A-6D59-4984-8828-BD89B90D78D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543A955A-6D59-4984-8828-BD89B90D78D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543A955A-6D59-4984-8828-BD89B90D78D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D6EE9C2-4253-4634-84B5-DE5F009EFB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D6EE9C2-4253-4634-84B5-DE5F009EFB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D6EE9C2-4253-4634-84B5-DE5F009EFB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D6EE9C2-4253-4634-84B5-DE5F009EFB90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3AD551-C153-4DCD-A94A-F1200FB24499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3AD551-C153-4DCD-A94A-F1200FB24499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3AD551-C153-4DCD-A94A-F1200FB24499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3AD551-C153-4DCD-A94A-F1200FB24499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AD6BF45-BFC3-4E2A-ADC9-373BC8A80481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD6BF45-BFC3-4E2A-ADC9-373BC8A80481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD6BF45-BFC3-4E2A-ADC9-373BC8A80481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD6BF45-BFC3-4E2A-ADC9-373BC8A80481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0BA77BC-D8D7-47BC-80C4-1A93DF3B241F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0BA77BC-D8D7-47BC-80C4-1A93DF3B241F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0BA77BC-D8D7-47BC-80C4-1A93DF3B241F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0BA77BC-D8D7-47BC-80C4-1A93DF3B241F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{088A507A-C366-49AC-82F3-D59C10231EB3} = {6CB07336-3BF5-4786-BF1B-990027E7D310}
+		{9958917B-7FD2-4E0F-8E8D-39151FC7D878} = {6CB07336-3BF5-4786-BF1B-990027E7D310}
+		{7DB29768-E7B1-49B4-A7CF-90DAFB714CD9} = {9958917B-7FD2-4E0F-8E8D-39151FC7D878}
+		{FD03C09B-5CF0-44B1-9DAE-39027A01BE61} = {6CB07336-3BF5-4786-BF1B-990027E7D310}
+		{9A03BA8A-23BE-4BA0-BAAC-FC09F68346DD} = {FD03C09B-5CF0-44B1-9DAE-39027A01BE61}
+		{75FD33C7-BFBE-4C55-8445-A48E8256BCC9} = {FD03C09B-5CF0-44B1-9DAE-39027A01BE61}
+		{7C4467BC-A83D-42E3-91A8-F3C37C4000A6} = {FD03C09B-5CF0-44B1-9DAE-39027A01BE61}
+		{0C0A9468-04F5-4F7A-9BF8-335CE34275F0} = {FD03C09B-5CF0-44B1-9DAE-39027A01BE61}
+		{7CFBB7BA-0D92-4F12-BA71-0806603929FD} = {9958917B-7FD2-4E0F-8E8D-39151FC7D878}
+		{3BBD92C0-4AB0-474F-BB13-818A5CAE70BC} = {7CFBB7BA-0D92-4F12-BA71-0806603929FD}
+		{8E42560E-5EE0-48E2-BAA0-2979985FC195} = {7CFBB7BA-0D92-4F12-BA71-0806603929FD}
+		{2D182023-E2AC-4A92-AD75-1A85CD8EC29C} = {7CFBB7BA-0D92-4F12-BA71-0806603929FD}
+		{6F81DE00-C227-4AC9-952B-C9610621ABAA} = {7CFBB7BA-0D92-4F12-BA71-0806603929FD}
+		{4080D26D-E2E1-4DE9-8F94-E777B0CC4425} = {7CFBB7BA-0D92-4F12-BA71-0806603929FD}
+		{9DC6FE3A-EBA7-46DE-88D7-A5DF443658E5} = {088A507A-C366-49AC-82F3-D59C10231EB3}
+		{543A955A-6D59-4984-8828-BD89B90D78D5} = {7DB29768-E7B1-49B4-A7CF-90DAFB714CD9}
+		{1D6EE9C2-4253-4634-84B5-DE5F009EFB90} = {7DB29768-E7B1-49B4-A7CF-90DAFB714CD9}
+		{6A3AD551-C153-4DCD-A94A-F1200FB24499} = {7DB29768-E7B1-49B4-A7CF-90DAFB714CD9}
+		{1AD6BF45-BFC3-4E2A-ADC9-373BC8A80481} = {7DB29768-E7B1-49B4-A7CF-90DAFB714CD9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA91AB54-271A-4A1F-8126-D578DF08348A}
+	EndGlobalSection
+EndGlobal

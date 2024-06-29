@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="8.2.3" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\Common\Xurmo.Common.Presentation\Xurmo.Common.Presentation.csproj" />
+		<ProjectReference Include="..\Xurmo.Modules.Catalogs.Application\Xurmo.Modules.Catalogs.Application.csproj" />
+	</ItemGroup>
+</Project>

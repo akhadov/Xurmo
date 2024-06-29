@@ -1,0 +1,7 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Xurmo.Common.Application\Xurmo.Common.Application.csproj" />
+    <ProjectReference Include="..\Xurmo.Modules.Users.Domain\Xurmo.Modules.Users.Domain.csproj" />
+    <ProjectReference Include="..\Xurmo.Modules.Users.IntegrationEvents\Xurmo.Modules.Users.IntegrationEvents.csproj" />
+  </ItemGroup>
+</Project>
