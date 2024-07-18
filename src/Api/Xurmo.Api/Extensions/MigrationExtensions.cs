@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Xurmo.Modules.Catalogs.Infrastructure.Database;
+using Xurmo.Modules.Users.Infrastructure.Database;
 
 namespace Xurmo.Api.Extensions;
 
@@ -9,6 +10,7 @@ public static class MigrationExtensions
     {
         using IServiceScope scope = app.ApplicationServices.CreateScope();
 
+        ApplyMigration<UsersDbContext>(scope);
         ApplyMigration<CatalogsDbContext>(scope);
     }
 

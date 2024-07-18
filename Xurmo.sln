@@ -39,15 +39,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xurmo.Modules.Users.Present
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xurmo.Modules.Users.IntegrationEvents", "src\Modules\Users\Xurmo.Modules.Users.IntegrationEvents\Xurmo.Modules.Users.IntegrationEvents.csproj", "{4080D26D-E2E1-4DE9-8F94-E777B0CC4425}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xurmo.Api", "src\Api\Xurmo.Api\Xurmo.Api.csproj", "{9DC6FE3A-EBA7-46DE-88D7-A5DF443658E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xurmo.Api", "src\Api\Xurmo.Api\Xurmo.Api.csproj", "{9DC6FE3A-EBA7-46DE-88D7-A5DF443658E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xurmo.Modules.Catalogs.Domain", "src\Modules\Catalogs\Xurmo.Modules.Catalogs.Domain\Xurmo.Modules.Catalogs.Domain.csproj", "{543A955A-6D59-4984-8828-BD89B90D78D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xurmo.Modules.Catalogs.Domain", "src\Modules\Catalogs\Xurmo.Modules.Catalogs.Domain\Xurmo.Modules.Catalogs.Domain.csproj", "{543A955A-6D59-4984-8828-BD89B90D78D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xurmo.Modules.Catalogs.Application", "src\Modules\Catalogs\Xurmo.Modules.Catalogs.Application\Xurmo.Modules.Catalogs.Application.csproj", "{1D6EE9C2-4253-4634-84B5-DE5F009EFB90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xurmo.Modules.Catalogs.Application", "src\Modules\Catalogs\Xurmo.Modules.Catalogs.Application\Xurmo.Modules.Catalogs.Application.csproj", "{1D6EE9C2-4253-4634-84B5-DE5F009EFB90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xurmo.Modules.Catalogs.Infrastructure", "src\Modules\Catalogs\Xurmo.Modules.Catalogs.Infrastructure\Xurmo.Modules.Catalogs.Infrastructure.csproj", "{6A3AD551-C153-4DCD-A94A-F1200FB24499}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xurmo.Modules.Catalogs.Infrastructure", "src\Modules\Catalogs\Xurmo.Modules.Catalogs.Infrastructure\Xurmo.Modules.Catalogs.Infrastructure.csproj", "{6A3AD551-C153-4DCD-A94A-F1200FB24499}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xurmo.Modules.Catalogs.Presentation", "src\Modules\Catalogs\Xurmo.Modules.Catalogs.Presentation\Xurmo.Modules.Catalogs.Presentation.csproj", "{1AD6BF45-BFC3-4E2A-ADC9-373BC8A80481}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xurmo.Modules.Catalogs.Presentation", "src\Modules\Catalogs\Xurmo.Modules.Catalogs.Presentation\Xurmo.Modules.Catalogs.Presentation.csproj", "{1AD6BF45-BFC3-4E2A-ADC9-373BC8A80481}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E0BA77BC-D8D7-47BC-80C4-1A93DF3B241F}"
 EndProject

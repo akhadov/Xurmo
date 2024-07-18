@@ -35,6 +35,11 @@ namespace Xurmo.Modules.Catalogs.Infrastructure.Database.Migrations
                         .HasColumnType("text")
                         .HasColumnName("description");
 
+                    b.Property<string>("ImagePath")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("image_path");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text")

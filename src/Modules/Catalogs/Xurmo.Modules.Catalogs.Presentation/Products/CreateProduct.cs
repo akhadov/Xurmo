@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
 using Xurmo.Common.Domain;
 using Xurmo.Common.Presentation.Endpoints;
@@ -12,18 +13,13 @@ internal sealed class CreateProduct : IEndpoint
 {
     public void MapEndpoint(IEndpointRouteBuilder app)
     {
-        app.MapPost("catalogs", async (Request request, ISender sender) =>
+        app.MapPost("catalogs/products", async ([FromForm] CreateProductRequest request, ISender sender) =>
         {
-            Result<Guid> result = await sender.Send(new CreateProductCommand(request.Name, request.Description));
+            Result<Guid> result = await sender.Send(new CreateProductCommand(request.Name, request.Description, request.Image));
 
             return result.Match(Results.Ok, ApiResults.Problem);
         })
-        .WithTags(Tags.Products);
-    }
-
-    internal sealed class Request
-    {
-        public string Name { get; init; }
-        public string Description { get; init; }
+        .WithTags(Tags.Products)
+        .DisableAntiforgery();
     }
 }

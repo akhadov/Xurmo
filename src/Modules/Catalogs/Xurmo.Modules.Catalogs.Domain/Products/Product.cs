@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Xurmo.Common.Domain;
+﻿using Xurmo.Common.Domain;
 
 namespace Xurmo.Modules.Catalogs.Domain.Products;
 
@@ -17,13 +12,16 @@ public sealed class Product : Entity
 
     public string Description { get; private set; }
 
-    public static Product Create(string name, string description)
+    public string ImagePath { get; private set; }
+
+    public static Product Create(string name, string description, string imagePath)
     {
         var product = new Product
         {
             Id = Guid.NewGuid(),
             Name = name,
-            Description = description
+            Description = description,
+            ImagePath = imagePath
         };
 
         return product;

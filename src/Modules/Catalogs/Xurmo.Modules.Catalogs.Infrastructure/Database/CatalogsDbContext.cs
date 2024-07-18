@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Xurmo.Modules.Catalogs.Application.Abstractions.Data;
 using Xurmo.Modules.Catalogs.Domain.Products;
 
