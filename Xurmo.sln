@@ -51,6 +51,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xurmo.Modules.Catalogs.Pres
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E0BA77BC-D8D7-47BC-80C4-1A93DF3B241F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8ADBB7AC-79D8-4C28-8D67-5E759790A243}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xurmo.ArchitectureTests", "test\Xurmo.ArchitectureTests\Xurmo.ArchitectureTests.csproj", "{4245C2F1-688F-4026-B26A-DF5959A59A9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xurmo.Modules.Catalogs.IntegrationEvents", "src\Modules\Catalogs\Xurmo.Modules.Catalogs.IntegrationEvents\Xurmo.Modules.Catalogs.IntegrationEvents.csproj", "{027DF1A2-49B3-4943-8609-AD701CDDDB77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B8F06B03-7DAA-490E-9980-DCE28722B9F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xurmo.Modules.Users.ArchitectureTests", "src\Modules\Users\Xurmo.Modules.Users.ArchitectureTests\Xurmo.Modules.Users.ArchitectureTests.csproj", "{A4CCEF73-2912-4AF6-82EB-C3602D3DC1FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +127,18 @@ Global
 		{E0BA77BC-D8D7-47BC-80C4-1A93DF3B241F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0BA77BC-D8D7-47BC-80C4-1A93DF3B241F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0BA77BC-D8D7-47BC-80C4-1A93DF3B241F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4245C2F1-688F-4026-B26A-DF5959A59A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4245C2F1-688F-4026-B26A-DF5959A59A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4245C2F1-688F-4026-B26A-DF5959A59A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4245C2F1-688F-4026-B26A-DF5959A59A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{027DF1A2-49B3-4943-8609-AD701CDDDB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027DF1A2-49B3-4943-8609-AD701CDDDB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027DF1A2-49B3-4943-8609-AD701CDDDB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027DF1A2-49B3-4943-8609-AD701CDDDB77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4CCEF73-2912-4AF6-82EB-C3602D3DC1FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4CCEF73-2912-4AF6-82EB-C3602D3DC1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4CCEF73-2912-4AF6-82EB-C3602D3DC1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4CCEF73-2912-4AF6-82EB-C3602D3DC1FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -141,6 +163,10 @@ Global
 		{1D6EE9C2-4253-4634-84B5-DE5F009EFB90} = {7DB29768-E7B1-49B4-A7CF-90DAFB714CD9}
 		{6A3AD551-C153-4DCD-A94A-F1200FB24499} = {7DB29768-E7B1-49B4-A7CF-90DAFB714CD9}
 		{1AD6BF45-BFC3-4E2A-ADC9-373BC8A80481} = {7DB29768-E7B1-49B4-A7CF-90DAFB714CD9}
+		{4245C2F1-688F-4026-B26A-DF5959A59A9E} = {8ADBB7AC-79D8-4C28-8D67-5E759790A243}
+		{027DF1A2-49B3-4943-8609-AD701CDDDB77} = {7DB29768-E7B1-49B4-A7CF-90DAFB714CD9}
+		{B8F06B03-7DAA-490E-9980-DCE28722B9F0} = {7CFBB7BA-0D92-4F12-BA71-0806603929FD}
+		{A4CCEF73-2912-4AF6-82EB-C3602D3DC1FE} = {B8F06B03-7DAA-490E-9980-DCE28722B9F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA91AB54-271A-4A1F-8126-D578DF08348A}

@@ -15,6 +15,7 @@ COPY ["src/Common/Xurmo.Common.Presentation/Xurmo.Common.Presentation.csproj", "
 COPY ["src/Modules/Catalogs/Xurmo.Modules.Catalogs.Application/Xurmo.Modules.Catalogs.Application.csproj", "src/Modules/Catalogs/Xurmo.Modules.Catalogs.Application/"]
 COPY ["src/Modules/Catalogs/Xurmo.Modules.Catalogs.Domain/Xurmo.Modules.Catalogs.Domain.csproj", "src/Modules/Catalogs/Xurmo.Modules.Catalogs.Domain/"]
 COPY ["src/Modules/Catalogs/Xurmo.Modules.Catalogs.Infrastructure/Xurmo.Modules.Catalogs.Infrastructure.csproj", "src/Modules/Catalogs/Xurmo.Modules.Catalogs.Infrastructure/"]
+COPY ["src/Modules/Catalogs/Xurmo.Modules.Catalogs.IntegrationEvents/Xurmo.Modules.Catalogs.IntegrationEvents.csproj", "src/Modules/Catalogs/Xurmo.Modules.Catalogs.IntegrationEvents/"]
 COPY ["src/Modules/Catalogs/Xurmo.Modules.Catalogs.Presentation/Xurmo.Modules.Catalogs.Presentation.csproj", "src/Modules/Catalogs/Xurmo.Modules.Catalogs.Presentation/"]
 COPY ["src/Modules/Users/Xurmo.Modules.Users.Application/Xurmo.Modules.Users.Application.csproj", "src/Modules/Users/Xurmo.Modules.Users.Application/"]
 COPY ["src/Modules/Users/Xurmo.Modules.Users.Domain/Xurmo.Modules.Users.Domain.csproj", "src/Modules/Users/Xurmo.Modules.Users.Domain/"]

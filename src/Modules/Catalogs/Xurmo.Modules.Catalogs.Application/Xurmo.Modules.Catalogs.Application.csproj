@@ -2,5 +2,6 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\Common\Xurmo.Common.Application\Xurmo.Common.Application.csproj" />
     <ProjectReference Include="..\Xurmo.Modules.Catalogs.Domain\Xurmo.Modules.Catalogs.Domain.csproj" />
+    <ProjectReference Include="..\Xurmo.Modules.Catalogs.IntegrationEvents\Xurmo.Modules.Catalogs.IntegrationEvents.csproj" />
   </ItemGroup>
 </Project>

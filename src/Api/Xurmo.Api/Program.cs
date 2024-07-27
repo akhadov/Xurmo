@@ -36,6 +36,7 @@ string redisConnectionString = builder.Configuration.GetConnectionStringOrThrow(
 builder.Services.AddInfrastructure(
     DiagnosticsConfig.ServiceName,
     [
+        CatalogsModule.ConfigureConsumers
     ],
     databaseConnectionString,
     redisConnectionString);

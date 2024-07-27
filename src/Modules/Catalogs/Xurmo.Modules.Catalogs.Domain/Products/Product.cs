@@ -4,7 +4,7 @@ namespace Xurmo.Modules.Catalogs.Domain.Products;
 
 public sealed class Product : Entity
 {
-    public Product() { }
+    private Product() { }
 
     public Guid Id { get; private set; }
 
@@ -23,6 +23,8 @@ public sealed class Product : Entity
             Description = description,
             ImagePath = imagePath
         };
+
+        product.Raise(new ProductCreatedDomainEvent(product.Id));
 
         return product;
     }

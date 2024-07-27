@@ -12,7 +12,7 @@
       "AdminUrl": "http://xurmo.identity:8080/admin/realms/xurmo/",
       "TokenUrl": "http://xurmo.identity:8080/realms/xurmo/protocol/openid-connect/token",
       "ConfidentialClientId": "xurmo-confidential-client",
-      "ConfidentialClientSecret": "PzotcrvZRF9BHCKcUxdKfHWlIPECG49k",
+      "ConfidentialClientSecret": "NYlHAzgex74J7tdpUJDhSZAJGziRju87",
       "PublicClientId": "xurmo-public-client"
     }
   }

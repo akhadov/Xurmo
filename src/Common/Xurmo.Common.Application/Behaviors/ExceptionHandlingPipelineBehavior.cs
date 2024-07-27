@@ -21,7 +21,7 @@ internal sealed class ExceptionHandlingPipelineBehavior<TRequest, TResponse>(
         {
             logger.LogError(exception, "Unhandled exception for {RequestName}", typeof(TRequest).Name);
 
-            throw new EventlyException(typeof(TRequest).Name, innerException: exception);
+            throw new XurmoException(typeof(TRequest).Name, innerException: exception);
         }
     }
 }

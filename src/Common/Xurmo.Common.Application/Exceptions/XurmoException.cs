@@ -1,9 +1,9 @@
 ﻿using Xurmo.Common.Domain;
 
 namespace Xurmo.Common.Application.Exceptions;
-public sealed class EventlyException : Exception
+public sealed class XurmoException : Exception
 {
-    public EventlyException(string requestName, Error? error = default, Exception? innerException = default)
+    public XurmoException(string requestName, Error? error = default, Exception? innerException = default)
         : base("Application exception", innerException)
     {
         RequestName = requestName;
